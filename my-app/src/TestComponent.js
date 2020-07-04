@@ -30,7 +30,7 @@ export default class TestComponent extends Component {
                     <input name="surName" type="text" value={this.state.surName} placeholder="and surname?" onChange={this.changeHandler}></input>
                     <button>Send</button>
                 </form>
-                {`${this.state.firstName} ${this.state.surName}`}
+                <p className="fullname">{`${this.state.firstName} ${this.state.surName}`}</p>
             </div>
         )
     }

@@ -6,7 +6,11 @@ import MyComponent  from './TestComponent';
 function App() {
   return (
     <div className="App">
-      <h1>Get Personal Information</h1>
+      <h1 style={{
+        marginTop : '100px' ,
+        color: 'darkgreen',
+        fontSize: 40,
+      }}>Get Personal Information</h1>
       <MyComponent/>
     </div>
   );
